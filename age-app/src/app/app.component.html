@@ -1,0 +1,10 @@
+<div class="italic">Wellcome In {{title}}</div>
+
+<button class="button1" type="button" (click)="calculateAge()">
+  Calculate-Age </button>
+<br>
+<br>
+<input type="text" id="txtdate" (keyup)="onKey($event)">
+<br>
+<p class="italic" *ngIf="birthDate">
+  Your Age Is .. {{Age}} </p>

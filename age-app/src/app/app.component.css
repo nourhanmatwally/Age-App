@@ -1,0 +1,20 @@
+.italic{
+  font-style: italic;
+  font-stretch:normal;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
+  font-size: 5rem;
+  color:blueviolet;
+}
+
+
+.button1{
+  color: rgb(86, 53, 146);
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 4px 2px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
